@@ -1,0 +1,48 @@
+{
+  "name": "test_assume",
+  "status": "failed",
+  "statusDetails": {
+    "message": "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_caic.py:68: AssumptionFailure\n>>\tpytest.assume(1 == 2)\nAssertionError: assert False\n\ntest_caic.py:72: AssumptionFailure\n>>\tpytest.assume(3 == 2)\nAssertionError: assert False",
+    "trace": "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               2 Failed Assumptions:\nE               \nE               test_caic.py:68: AssumptionFailure\nE               >>\tpytest.assume(1 == 2)\nE               AssertionError: assert False\nE               \nE               test_caic.py:72: AssumptionFailure\nE               >>\tpytest.assume(3 == 2)\nE               AssertionError: assert False\n\n..\\venv\\lib\\site-packages\\six.py:702: FailedAssumption"
+  },
+  "start": 1600669159083,
+  "stop": 1600669159105,
+  "uuid": "0e6a905f-d34c-4a8e-bfa6-659f8b8aa751",
+  "historyId": "e8e89999defed7e52ecb650afefa15cd",
+  "testCaseId": "ad66366e6ff3b0f74246077728d44f83",
+  "fullName": "testing.test_caic.TestCalc#test_assume",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "testing"
+    },
+    {
+      "name": "suite",
+      "value": "test_caic"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SCTFE00"
+    },
+    {
+      "name": "thread",
+      "value": "8080-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testing.test_caic"
+    }
+  ]
+}

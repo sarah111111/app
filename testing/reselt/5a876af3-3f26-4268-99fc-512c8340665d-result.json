@@ -1,0 +1,66 @@
+{
+  "name": "test_add[int0]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 3 == 2",
+    "trace": "self = <test_caic.TestCalc object at 0x00000203D0CE8C10>, a = 1, b = 1\nresult = 3\n\n    @pytest.mark.add\n    @pytest.mark.parametrize('a, b, result',[\n        (1,1,3),\n        (1,2,3),\n        (100,200,300),\n        (0.1,0.1,0.2),\n        (-1,-1,-2)\n    ]\n                             ,ids=['int','int','bignum','float','fushu'])\n    def test_add(self, a, b, result):\n        # cal = Calclator()\n>       assert result == self.cal.add(a, b)\nE       assert 3 == 2\n\ntest_caic.py:54: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "result",
+      "value": "3"
+    }
+  ],
+  "start": 1600668623896,
+  "stop": 1600668623897,
+  "uuid": "23696dba-c85c-43ba-b8a4-ad521231aee3",
+  "historyId": "884cf66ab72370193e4efe0f6a06d38e",
+  "testCaseId": "5ec35c1a0f556cfeffbb46964859af9d",
+  "fullName": "testing.test_caic.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testing"
+    },
+    {
+      "name": "suite",
+      "value": "test_caic"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SCTFE00"
+    },
+    {
+      "name": "thread",
+      "value": "14900-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testing.test_caic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="DESKTOP-SCTFE00" name="pytest" skipped="0" tests="2" time="0.072"
+               timestamp="2020-09-16T11:14:04.864462">
+        <testcase classname="testing.test_caic" file="testing\test_caic.py" line="10" name="test_add"
+                  time="0.002"></testcase>
+        <testcase classname="testing.test_caic" file="testing\test_caic.py" line="15" name="test_add1"
+                  time="0.002"></testcase>
+    </testsuite>
+</testsuites>

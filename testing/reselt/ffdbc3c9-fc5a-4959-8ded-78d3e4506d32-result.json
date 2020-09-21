@@ -1,0 +1,62 @@
+{
+  "name": "test_add[int2]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "result",
+      "value": "3"
+    }
+  ],
+  "start": 1600669159029,
+  "stop": 1600669159029,
+  "uuid": "d5f84560-7e82-4f64-b3bf-938dd096d71e",
+  "historyId": "e60d7653f73f7d9520e95027e78b4062",
+  "testCaseId": "5ec35c1a0f556cfeffbb46964859af9d",
+  "fullName": "testing.test_caic.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "add"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testing"
+    },
+    {
+      "name": "suite",
+      "value": "test_caic"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SCTFE00"
+    },
+    {
+      "name": "thread",
+      "value": "8080-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testing.test_caic"
+    }
+  ]
+}

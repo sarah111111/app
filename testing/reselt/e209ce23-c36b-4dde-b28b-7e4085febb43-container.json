@@ -1,0 +1,24 @@
+{
+  "uuid": "9640291a-5cd4-401e-bee7-74c83caecdcb",
+  "children": [
+    "56f0103e-435b-46ee-92b8-7ef009a08a90"
+  ],
+  "befores": [
+    {
+      "name": "login",
+      "status": "passed",
+      "start": 1600668624070,
+      "stop": 1600668624070
+    }
+  ],
+  "afters": [
+    {
+      "name": "login::0",
+      "status": "passed",
+      "start": 1600668624073,
+      "stop": 1600668624073
+    }
+  ],
+  "start": 1600668624070,
+  "stop": 1600668624073
+}
