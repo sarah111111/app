@@ -35,6 +35,26 @@ with open("datas/caic.yml") as f:
     mydatas = datas.values()
 
 
+def get_steps():
+    with open("steps/add.yml") as f:
+        steps = yaml.safe_load(f)
+    return steps
+
+
+cal = Calclator()
+
+
+def steps(a, b, result):
+    steps1 = get_steps()
+    for step in steps1:
+        if 'add1' == step:
+            assert result == cal.add1(a, b)
+        elif 'add2' == step:
+            assert result == cal.add2(a, b)
+        elif 'add3' == step:
+            assert result == cal.add3(a, b)
+
+
 class TestCalc:
     # 每个类里面 前和后分布执行 setup_class teardown_class
     def setup_class(self):
@@ -55,10 +75,11 @@ class TestCalc:
     @pytest.mark.parametrize('a, b, result', mydatas
         , ids=mydis)
     def test_add(self, a, b, result):
+        steps(a, b, result)
         # cal = Calclator()
-        assert result == self.cal.add(a, b)
-        assert result == self.cal.add(a, b)
-        assert result == self.cal.add(a, b)
+        # assert result == self.cal.add1(a, b)
+        # assert result == self.cal.add2(a, b)
+        # assert result == self.cal.add3(a, b)
 
     @pytest.mark.add
     def test_add1(self):
