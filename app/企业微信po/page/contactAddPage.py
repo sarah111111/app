@@ -6,7 +6,7 @@ from time import sleep
 
 from appium.webdriver.common.mobileby import MobileBy
 
-from app.企业微信.page.basepage import BasePage
+from app.企业微信po.page.basepage import BasePage
 
 
 class ContactAddPage(BasePage):
@@ -45,5 +45,5 @@ class ContactAddPage(BasePage):
     def click_save(self):
         # self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/hxt").click()
         self.find_and_click(self.save_element)
-        from app.企业微信.page.addmeberpage import AddMeberPage
+        from app.企业微信po.page import AddMeberPage
         return AddMeberPage(self.driver)

@@ -3,8 +3,8 @@
 """
 from appium import webdriver
 
-from app.企业微信.page.basepage import BasePage
-from app.企业微信.page.mainpage import MainPage
+from app.企业微信po.page.basepage import BasePage
+from app.企业微信po.page.mainpage import MainPage
 
 
 class App(BasePage):

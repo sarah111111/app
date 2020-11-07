@@ -2,7 +2,7 @@
 import pytest
 import yaml
 
-from app.企业微信.page.app import App
+from app.企业微信po.page.app import App
 
 # 运行提示gbk时要加入“rb”参数
 with open("../datas/addcontact.yml", 'rb') as f:

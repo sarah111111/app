@@ -3,9 +3,8 @@
 """
 # from app.企业微信.page.contactAddPage import ContactAddPage
 from appium.webdriver.common.mobileby import MobileBy
-from selenium.webdriver.support.wait import WebDriverWait
 
-from app.企业微信.page.basepage import BasePage
+from app.企业微信po.page.basepage import BasePage
 
 
 class AddMeberPage(BasePage):
@@ -21,7 +20,7 @@ class AddMeberPage(BasePage):
         """
         # self.driver.find_element(MobileBy.XPATH, "//*[@text='手动输入添加']").click()
         self.find_and_click(self.add_manual_element)  # 改造后
-        from app.企业微信.page.contactAddPage import ContactAddPage
+        from app.企业微信po.page import ContactAddPage
         return ContactAddPage(self.driver)
 
     def get_toast(self):

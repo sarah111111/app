@@ -1,10 +1,9 @@
 """
 通讯录列表页
 """
-from appium.webdriver.common.mobileby import MobileBy
 
-from app.企业微信.page.addmeberpage import AddMeberPage
-from app.企业微信.page.basepage import BasePage
+from app.企业微信po.page import AddMeberPage
+from app.企业微信po.page.basepage import BasePage
 
 
 class ContactListPage(BasePage):

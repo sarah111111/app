@@ -3,8 +3,8 @@
 """
 from appium.webdriver.common.mobileby import MobileBy
 
-from app.企业微信.page.basepage import BasePage
-from app.企业微信.page.contactlistPage import ContactListPage
+from app.企业微信po.page.basepage import BasePage
+from app.企业微信po.page import ContactListPage
 
 
 class MainPage(BasePage):
