@@ -1,8 +1,5 @@
 import requests
 import re
-import json
-import json
-import numpy as np
 
 h = {
     'Cookie': 'PHPSESSID=9pdkr2ia5v4rb252qr8csel4s1',
@@ -12,11 +9,11 @@ h = {
 
 
 def seach():
-    for i in range(0, 401):
+    for i in range(394, 450):
         url1 = 'https://www.souketong.com/clientSearch/clientsearch/search?charset=utf-8'
         params1 = {
             "p": i,
-            "q": "建筑"
+            "q": "包装"
         }
         requests.packages.urllib3.disable_warnings()
         seach = requests.get(url=url1, headers=h, params=params1, verify=False)
